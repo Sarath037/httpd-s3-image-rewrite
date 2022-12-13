@@ -3,12 +3,12 @@ httpd-s3-image-rewrite
 
 Load Website Image From S3 bucket
 - Package Installation
-.
-===
+
+############
 # yum install httpd -y
 # systemctl enable httpd -y
 # systemctl restart httpd
-====
+##########
 - IAM Bucket Policy To Make Bucket Public
 {
     "Version": "2012-10-17",
